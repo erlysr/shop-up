@@ -1,0 +1,569 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot?yxz54i');
+	src:url('../fonts/icomoon/icomoon.eot?#iefixyxz54i') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff?yxz54i') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf?yxz54i') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg?yxz54i#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+	content: "\e600";
+}
+.icon-uniE601:before {
+	content: "\e601";
+}
+.icon-chevron-left:before {
+	content: "\f0a4";
+}
+.icon-chevron-right:before {
+	content: "\f078";
+}
+.icon-location:before {
+	content: "\e602";
+}
+.icon-menu:before {
+	content: "\e604";
+}
+.icon-star:before {
+	content: "\e605";
+	color: #61c8c7;
+}
+.icon-star-bad:before {
+	content: "\e605";
+}
+.icon-facebook:before {
+	content: "\e606";
+}
+.icon-twitter:before {
+	content: "\e607";
+}
+.icon-check-alt:before {
+	content: "\e608";
+}
+.icon-star2:before {
+	content: "\e609";
+}
+.icon-checkmark:before {
+	content: "\e60a";
+}
+.icon-checkmark2:before {
+	content: "\e60b";
+}
+.icon-list:before {
+	content: "\e603";
+}
+
+@font-face {
+    font-family: 'casper_bold_italicregular';
+    src: url('../fonts/casper_bold_italic.eot');
+    src: url('../fonts/casper_bold_italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper_bold_italic.woff2') format('woff2'),
+         url('../fonts/casper_bold_italic.woff') format('woff'),
+         url('../fonts/casper_bold_italic.ttf') format('truetype'),
+         url('../fonts/casper_bold_italic.svg#casper_bold_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'casperregular';
+    src: url('../fonts/casper.eot');
+    src: url('../fonts/casper.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper.woff2') format('woff2'),
+         url('../fonts/casper.woff') format('woff'),
+         url('../fonts/casper.ttf') format('truetype'),
+         url('../fonts/casper.svg#casperregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'casper_boldregular';
+    src: url('../fonts/casper_bold.eot');
+    src: url('../fonts/casper_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper_bold.woff2') format('woff2'),
+         url('../fonts/casper_bold.woff') format('woff'),
+         url('../fonts/casper_bold.ttf') format('truetype'),
+         url('../fonts/casper_bold.svg#casper_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poetsen_oneregular';
+    src: url('../fonts/poetsenone-regular.eot');
+    src: url('../fonts/poetsenone-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poetsenone-regular.woff2') format('woff2'),
+         url('../fonts/poetsenone-regular.woff') format('woff'),
+         url('../fonts/poetsenone-regular.ttf') format('truetype'),
+         url('../fonts/poetsenone-regular.svg#poetsen_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'casper_italicregular';
+    src: url('../fonts/casper_italic.eot');
+    src: url('../fonts/casper_italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper_italic.woff2') format('woff2'),
+         url('../fonts/casper_italic.woff') format('woff'),
+         url('../fonts/casper_italic.ttf') format('truetype'),
+         url('../fonts/casper_italic.svg#casper_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*
+{  
+    margin: 0;
+}
+a
+{
+    color: #aeb0af;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #61c8c7;
+}
+body
+{
+	background: white;
+	color: #aeb0af;
+	font-family: "casperregular";
+	font-size: 13px;
+	width: 1280px;
+
+}
+#encabezado
+{
+	font-size: 1.3em;
+	position: relative;
+	height: 95px;
+	border-bottom: 7px solid #61c8c7;
+}
+#encabezado .logo-buscar
+{
+	position: absolute;
+	left: 900px;
+	top: 35px;
+}
+#encabezado .logo-shop-up
+{
+	position: absolute;
+	top: 4px;
+	left: 20px;
+	z-index: 3;
+}
+#encabezado .menu-superior
+{
+	right: 0px;
+	position: absolute;
+	top: 30px;
+}
+#encabezado .menu-superior li
+{
+	float: left;
+	height: 20px;
+	margin-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	
+}
+#encabezado .menu-superior .contacto-opcion
+{
+
+}
+
+#encabezado .menu-superior .registra-tienda-opcion
+{
+	border-right: 1px solid;
+}
+#encabezado .menu-superior .registra-tienda-opcion .registra-tienda-link
+{
+
+	
+}
+#encabezado .redes-iconos
+{
+	
+	left: 120px;
+	position: absolute;
+	top: 35px;
+	width: 106px;
+}
+#encabezado .redes-iconos .icono
+{
+	height: 22px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 23px;
+	float: left;
+}
+figure
+{
+	border: 0;
+	font-size: 0;
+    line-height: 0;
+	margin: 0;
+    padding: 0;
+    vertical-align: top;
+
+}
+
+footer
+{
+
+	background: #2b2b2b;
+	clear: both;
+	color: white;
+	font-size: 1.2em;
+	height: 60px;
+	position: relative;
+	text-align: bottom-left;
+	z-index: 0;
+}
+
+footer .piplusone-logos
+{
+    left: 45px;
+    position: absolute;
+    top: 12px;
+    z-index: 3;
+   
+}
+footer .piplusone-logos .iconos
+{
+    width: 105px;
+    margin: 0 auto; /* Centrado */
+    padding-bottom: 50px;
+}
+footer .piplusone-logos .iconos .icono-fig-item
+{
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    float: left;
+}
+footer .piplusone-logos .iconos .icono-fig-item .icono-img-item
+{
+    width: 25px;
+    height: 25px;
+}
+footer .powered-label
+{
+	position: absolute;
+	bottom: 20px;
+	right: 25px;
+	z-index: 3;
+}
+
+#intro
+{
+	clear: both;
+	position: relative;
+}
+#intro .funciona-boton
+{
+	background-image: url("../img/fondo_boton_189x60px.jpg");
+	background-repeat: none;
+	font-size: 1.3em;
+	left: 584px;
+	position: absolute;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	top: 435px;
+	width: 184px;
+	border-radius: 5px;
+}
+#intro .funciona-boton:hover
+{
+	border: 3px solid #61c8c7;
+	border-radius: 7px;
+}
+
+#intro .shop-up-logo
+{
+	left: 584px;
+	position: absolute;
+	top: 210px;
+	z-index: 3;
+}
+
+li
+{
+	list-style-type: none;
+}
+#lomejor-section
+{
+	clear: both;
+	background-image: url("../img/texturagris_1.jpg");
+	background-repeat: none;
+	height: 326px;
+}
+#lomejor-section .lomejor-label-cont
+{
+	margin: 0 auto;
+	padding-top: 80px;
+	width: 370px;
+}
+#lomejor-section .lomejor-label-cont2
+{
+	margin: 0 auto;
+	padding-top: 80px;
+	width: 275px;
+}
+#lomejor-section .lomejor-label-cont .lomejor-label1, #lomejor-section .lomejor-label-cont2 .lomejor-label1
+{
+	font-family: 'poetsen_oneregular';
+	float: left;
+	text-align: left;
+	font-size: 3em;
+}
+#lomejor-section .lomejor-label-cont .lomejor-label2, #lomejor-section .lomejor-label-cont2 .lomejor-label2
+{
+	color: #61c8c7;
+	font-family: 'poetsen_oneregular';
+	float: left;
+	text-align: left;
+	font-size: 3em;
+}
+#lomejor-section .pleca-curvas
+{
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+}
+#lopopular
+{
+	background: white;
+	clear: both;
+	position: relative;
+}
+#lopopular .lopopular-cont
+{
+	margin: 0 auto;
+	padding-top: 50px;
+	position: relative;
+	width: 1024px;
+	height: 370px;
+
+}
+#lopopular .lopopular-cont .espacios-cont
+{
+	
+	float: left;
+	position: relative;
+	padding-left: 11px;
+	padding-right: 11px;
+	width: 234px;
+	
+}
+#lopopular .lopopular-cont .espacios-cont .espacio-info
+{
+	float: left;
+	font-family: "poetsen_oneregular";
+	font-size: 1.2em;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	position: relative;
+
+}
+#lopopular .lopopular-cont .espacios-cont .espacio-info .calificacion
+{
+	float: right;
+	text-align: right;
+	width: 98px;
+	
+}
+#lopopular .lopopular-cont .espacios-cont .espacio-info .textos-cont 
+{
+	float: left;
+	text-align: left;
+	width: 136px;
+
+}
+#lopopular .lopopular-cont .espacios-cont .espacio-info .textos-cont .texto-gris
+{
+	color: #c1c1c1;
+	float: left;
+}
+#lopopular .lopopular-cont .espacios-cont .espacio-info .textos-cont .texto-verde
+{
+	color: #61c8c7; 
+	float: left;
+	
+}
+#lopopular .lopopular-cont .espacios-cont .imagen-cont
+{
+	clear: both;
+	position: relative;
+	width: 234px;
+	height: 173px;
+}
+#lopopular .lopopular-cont .espacios-cont .imagen-cont .precio-label
+{
+	bottom: 10px;
+	color: white;
+	font-family: "poetsen_oneregular";
+	font-size: 1.2em;	
+	position: absolute;
+	right: 5px;
+	z-index: 3;
+}
+#lopopular .lopopular-cont .espacios-cont .imagen-cont .tienda-foto
+{
+	box-shadow: 10px 10px 20px #aeb0af;
+	position: absolute;
+	width: 234px;
+	height: 173px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}	
+#lopopular .lopopular-cont .espacios-cont .imagen-cont .triang-pleca
+{
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+}
+#lopopular .lopopular-cont .espacios-cont .ubica-espacio
+{
+	padding-top: 10px;
+	line-height: 1.5em;
+	color: #919191;
+
+}
+#lopopular .lopopular-cont .espacios-cont .publicado-por
+{
+	font-size: .8em;
+	line-height: 1.5em;
+	color: #919191;
+}
+#lopopular .lopopular-cont .lopopular-encabezado
+{
+	clear: both;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	height: 70px;
+}
+#lopopular .lopopular-cont .lopopular-encabezado .lopopular-labels
+{
+	position: absolute;
+	left: 0;
+}
+#lopopular .lopopular-cont .lopopular-encabezado .lopopular-labels .lopopular-label1
+{
+	float: left;
+	font-family: 'poetsen_oneregular';
+	font-size: 2.5em;
+}
+#lopopular .lopopular-cont .lopopular-encabezado .lopopular-labels .lopopular-label2
+{
+	color: #61c8c7;
+	float: left;
+	font-family: 'poetsen_oneregular';
+	font-size: 3em;
+	padding-left: 10px;
+}
+#lopopular .lopopular-cont .lopopular-encabezado .quiero-mas-boton
+{
+	background-image: url("../img/boton.jpg");
+	background-repeat: none;
+	border-radius: 5px;
+	color: white;
+	right: 5px;
+	font-size: 1.1em;
+	height: 31px;
+	line-height: 31px;
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	width: 134px;
+	
+}
+#lopopular .lopopular-cont .lopopular-encabezado .quiero-mas-boton:hover
+{
+	background-image: url("../img/activo.png");
+	height: 43px;
+	line-height: 43px;
+	top: 4px;
+	right: 0;
+	width: 145px;
+}
+#piplusone-link
+{
+	color: white;
+}
+#top-up-section
+{
+	clear: both;
+	background-image: url("../img/texturagris_2.jpg");
+	background-repeat: none;
+	height: 800px;
+	margin-top: 20px;
+}
+#top-up-section .lomejor-label-cont
+{
+	margin: 0 auto;
+	padding-top: 80px;
+	width: 180px;
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+#top-up-section .lomejor-label-cont .lomejor-label1
+{
+	font-family: 'poetsen_oneregular';
+	float: left;
+	text-align: left;
+	font-size: 3em;
+}
+#top-up-section .lomejor-label-cont .lomejor-label2
+{
+	color: #61c8c7;
+	font-family: 'poetsen_oneregular';
+	float: left;
+	text-align: left;
+	font-size: 3em;
+}
+#top-up-section .top-up-mosaico
+{
+	background: white;
+	clear: both;
+	margin: 0 auto;
+	width: 710px;
+
+}
+#top-up-section .top-up-mosaico .col1
+{
+	padding-right: 10px;
+	float: left;
+}
+#top-up-section .top-up-mosaico .col2
+{
+	float: left;
+}
+#top-up-section .top-up-mosaico .col2 .lo-tradicional-link .lo-tradicional-img
+{
+	margin-bottom: 10px;
+}
