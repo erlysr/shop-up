@@ -276,12 +276,12 @@ footer .powered-label
 	z-index: 3;
 }
 
-#intro
+#principal-section
 {
 	clear: both;
 	position: relative;
 }
-#intro .funciona-boton
+#principal-section .funciona-boton
 {
 	background-image: url("../img/fondo_boton_189x60px.jpg");
 	background-repeat: none;
@@ -295,13 +295,13 @@ footer .powered-label
 	width: 184px;
 	border-radius: 5px;
 }
-#intro .funciona-boton:hover
+#principal-section .funciona-boton:hover
 {
 	border: 3px solid #61c8c7;
 	border-radius: 7px;
 }
 
-#intro .shop-up-logo
+#principal-section .shop-up-logo
 {
 	left: 584px;
 	position: absolute;
@@ -313,53 +313,53 @@ li
 {
 	list-style-type: none;
 }
-#lomejor-section
+#marquesina-section
 {
 	clear: both;
 	background-image: url("../img/texturagris_1.jpg");
 	background-repeat: none;
 	height: 326px;
 }
-#lomejor-section .lomejor-label-cont
+#marquesina-section .labels-cont
 {
 	margin: 0 auto;
 	padding-top: 80px;
 	width: 100%;
 	text-align: center;
 }
-#lomejor-section .lomejor-label-cont2
+#marquesina-section .titulo-labels-cont2
 {
 	margin: 0 auto;
 	padding-top: 80px;
 	width: 100%;
 	text-align: center;
 }
-#lomejor-section .lomejor-label-cont .lomejor-label1, #lomejor-section .lomejor-label-cont2 .lomejor-label1
+#marquesina-section .labels-cont .titulo-label1, #marquesina-section .titulo-labels-cont2 .titulo-label1
 {
 	display: inline-block;
 	font-family: 'poetsen_oneregular';
 	font-size: 3em;
 }
-#lomejor-section .lomejor-label-cont .lomejor-label2, #lomejor-section .lomejor-label-cont2 .lomejor-label2
+#marquesina-section .labels-cont .titulo-label2, #marquesina-section .titulo-labels-cont2 .titulo-label2
 {
 	color: #61c8c7;
 	display: inline-block;
 	font-family: 'poetsen_oneregular';
 	font-size: 3em;
 }
-#lomejor-section .pleca-curvas
+#marquesina-section .pleca-curvas
 {
 	clear: both;
 	padding-top: 40px;
 	text-align: center;
 }
-#lopopular
+#tiendas-section
 {
 	background: white;
 	clear: both;
 	position: relative;
 }
-#lopopular .lopopular-cont
+#tiendas-section .tiendas-cont
 {
 	margin: 0 auto;
 	padding-top: 50px;
@@ -368,7 +368,7 @@ li
 	height: 370px;
 
 }
-#lopopular .lopopular-cont .espacios-cont
+#tiendas-section .tiendas-cont .espacio-cont
 {
 	
 	float: left;
@@ -378,7 +378,7 @@ li
 	width: 234px;
 	
 }
-#lopopular .lopopular-cont .espacios-cont .espacio-info
+#tiendas-section .tiendas-cont .espacio-cont .espacio-info
 {
 	float: left;
 	font-family: "poetsen_oneregular";
@@ -388,39 +388,39 @@ li
 	position: relative;
 
 }
-#lopopular .lopopular-cont .espacios-cont .espacio-info .calificacion
+#tiendas-section .tiendas-cont .espacio-cont .espacio-info .calificacion
 {
 	float: right;
 	text-align: right;
 	width: 98px;
 	
 }
-#lopopular .lopopular-cont .espacios-cont .espacio-info .textos-cont 
+#tiendas-section .tiendas-cont .espacio-cont .espacio-info .textos-cont 
 {
 	float: left;
 	text-align: left;
 	width: 136px;
 
 }
-#lopopular .lopopular-cont .espacios-cont .espacio-info .textos-cont .texto-gris
+#tiendas-section .tiendas-cont .espacio-cont .espacio-info .textos-cont .texto-gris
 {
 	color: #c1c1c1;
 	float: left;
 }
-#lopopular .lopopular-cont .espacios-cont .espacio-info .textos-cont .texto-verde
+#tiendas-section .tiendas-cont .espacio-cont .espacio-info .textos-cont .texto-verde
 {
 	color: #61c8c7; 
 	float: left;
 	
 }
-#lopopular .lopopular-cont .espacios-cont .imagen-cont
+#tiendas-section .tiendas-cont .espacio-cont .imagen-cont
 {
 	clear: both;
 	position: relative;
 	width: 234px;
 	height: 173px;
 }
-#lopopular .lopopular-cont .espacios-cont .imagen-cont .precio-label
+#tiendas-section .tiendas-cont .espacio-cont .imagen-cont .precio-label
 {
 	bottom: 10px;
 	color: white;
@@ -430,7 +430,7 @@ li
 	right: 5px;
 	z-index: 3;
 }
-#lopopular .lopopular-cont .espacios-cont .imagen-cont .tienda-foto
+#tiendas-section .tiendas-cont .espacio-cont .imagen-cont .tienda-foto
 {
 	box-shadow: 10px 10px 20px #aeb0af;
 	position: absolute;
@@ -440,53 +440,53 @@ li
 	left: 0;
 	z-index: 1;
 }	
-#lopopular .lopopular-cont .espacios-cont .imagen-cont .triang-pleca
+#tiendas-section .tiendas-cont .espacio-cont .imagen-cont .triang-pleca
 {
 	bottom: 0;
 	position: absolute;
 	right: 0;
 	z-index: 2;
 }
-#lopopular .lopopular-cont .espacios-cont .ubica-espacio
+#tiendas-section .tiendas-cont .espacio-cont .ubica-espacio
 {
 	padding-top: 10px;
 	line-height: 1.5em;
 	color: #919191;
 
 }
-#lopopular .lopopular-cont .espacios-cont .publicado-por
+#tiendas-section .tiendas-cont .espacio-cont .publicado-por
 {
 	font-size: .8em;
 	line-height: 1.5em;
 	color: #919191;
 }
-#lopopular .lopopular-cont .lopopular-encabezado
+#tiendas-section .tiendas-cont .tiendas-encabezado
 {
 	clear: both;
 	border-bottom: 1px solid #e2e2e2;
 	position: relative;
 	height: 70px;
 }
-#lopopular .lopopular-cont .lopopular-encabezado .lopopular-labels
+#tiendas-section .tiendas-cont .tiendas-encabezado .titulo-labels
 {
 	position: absolute;
 	left: 0;
 }
-#lopopular .lopopular-cont .lopopular-encabezado .lopopular-labels .lopopular-label1
+#tiendas-section .tiendas-cont .tiendas-encabezado .titulo-labels .titulo-label1
 {
 	float: left;
 	font-family: 'poetsen_oneregular';
 	font-size: 2.5em;
 }
-#lopopular .lopopular-cont .lopopular-encabezado .lopopular-labels .lopopular-label2
+#tiendas-section .tiendas-cont .tiendas-encabezado .titulo-labels .titulo-label2
 {
 	color: #61c8c7;
 	float: left;
 	font-family: 'poetsen_oneregular';
-	font-size: 3em;
+	font-size: 2.5em;
 	padding-left: 10px;
 }
-#lopopular .lopopular-cont .lopopular-encabezado .quiero-mas-boton
+#tiendas-section .tiendas-cont .tiendas-encabezado .quiero-mas-boton
 {
 	background-image: url("../img/boton.jpg");
 	background-repeat: none;
@@ -502,7 +502,7 @@ li
 	width: 134px;
 	
 }
-#lopopular .lopopular-cont .lopopular-encabezado .quiero-mas-boton:hover
+#tiendas-section .tiendas-cont .tiendas-encabezado .quiero-mas-boton:hover
 {
 	background-image: url("../img/activo.png");
 	height: 43px;
@@ -523,7 +523,7 @@ li
 	height: 800px;
 	margin-top: 20px;
 }
-#top-up-section .lomejor-label-cont
+#top-up-section .labels-cont
 {
 	margin: 0 auto;
 	padding-top: 80px;
@@ -531,14 +531,14 @@ li
 	padding-bottom: 80px;
 	overflow: hidden;
 }
-#top-up-section .lomejor-label-cont .lomejor-label1
+#top-up-section .labels-cont .titulo-label1
 {
 	font-family: 'poetsen_oneregular';
 	float: left;
 	text-align: left;
 	font-size: 3em;
 }
-#top-up-section .lomejor-label-cont .lomejor-label2
+#top-up-section .labels-cont .titulo-label2
 {
 	color: #61c8c7;
 	font-family: 'poetsen_oneregular';
