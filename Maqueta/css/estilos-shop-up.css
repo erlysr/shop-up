@@ -324,27 +324,27 @@ li
 {
 	margin: 0 auto;
 	padding-top: 80px;
-	width: 370px;
+	width: 100%;
+	text-align: center;
 }
 #lomejor-section .lomejor-label-cont2
 {
 	margin: 0 auto;
 	padding-top: 80px;
-	width: 275px;
+	width: 100%;
+	text-align: center;
 }
 #lomejor-section .lomejor-label-cont .lomejor-label1, #lomejor-section .lomejor-label-cont2 .lomejor-label1
 {
+	display: inline-block;
 	font-family: 'poetsen_oneregular';
-	float: left;
-	text-align: left;
 	font-size: 3em;
 }
 #lomejor-section .lomejor-label-cont .lomejor-label2, #lomejor-section .lomejor-label-cont2 .lomejor-label2
 {
 	color: #61c8c7;
+	display: inline-block;
 	font-family: 'poetsen_oneregular';
-	float: left;
-	text-align: left;
 	font-size: 3em;
 }
 #lomejor-section .pleca-curvas
